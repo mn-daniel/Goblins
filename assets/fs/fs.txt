@@ -1,0 +1,19 @@
+
+var fullscreen;
+function onfullscreenchange(full) {
+    console.log('FSM');
+}
+
+// You might want to use addEventListener and its equivalents instead
+window.onresize = function () {
+    if (window.outerWidth === screen.width && window.outerHeight === screen.height) {
+        if (!fullscreen) {
+            fullscreen = true;
+            onfullscreenchange(true);
+        }
+    } else {
+        if (fullscreen) {
+            fullscreen = false;
+            onfullscreenchange(false);
+    }
+}

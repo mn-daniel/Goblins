@@ -1,6 +1,4 @@
 # Goblins
-
-=======
 A HTML5 Canvas Game
 
 FORK: https://github.com/lostdecade/simple_canvas_game

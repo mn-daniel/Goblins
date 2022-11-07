@@ -1,0 +1,9 @@
+body {
+  height: 480px;
+    width: 512px;
+    margin: auto;
+    padding-top: 30px;
+}
+p {
+  text-align: center;
+}
